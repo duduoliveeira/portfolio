@@ -1,8 +1,64 @@
-.animated {
-  display: inline-block;
-  margin: 0 0.5rem;
+// #name {
+//   margin-left: 200px;
+//   margin-top:250px;
+//   margin-bottom: 20px;
+//   display: inline-block;
+//   animation: bounce; /* referring directly to the animation's @keyframe declaration */
+//   animation-duration: 2s; /* don't forget to set a duration! */
+// }
 
-  animation: bounce; /* referring directly to the animation's @keyframe declaration */
-  animation-duration: 2s; /* don't forget to set a duration! */
+// #front {
+//   margin-left: 200px;
+//   margin-top: 280px;
+//   display: inline-block;
+//   animation: bounceInRight; /* referring directly to the animation's @keyframe declaration */
+//   animation-duration: 4s;
+// }
 
+.animate__animated .animate__bounceInDown {
+  --animate-duration: 40s;
+}
+
+.animate__animated .animate__bounceInRight {
+  --animate-duration: 40s;
+}
+
+#name {
+  margin-left: 300px;
+  margin-top: 360px
+
+}
+
+h1 {
+  font-size: 50px;
+  color: #A9E2EF;
+  text-shadow:     0 1px 0 hsl(318, 100%, 83%),
+	                 0 2px 0 hsl(318, 100%, 80%),
+	                 0 3px 0 hsl(318, 100%, 78%),
+	                 0 4px 0 hsl(318, 100%, 75%),
+	                 0 5px 0 hsl(318, 100%, 72%),
+	                 0 6px 0 hsl(318, 100%, 70%),
+	                 0 7px 0 hsl(318, 100%, 68%),
+	                 0 8px 0 hsl(318, 100%, 65%),
+
+	                 0 0 5px rgba(49,24,82,.05),
+	                0 1px 3px rgba(49,24,82,.2),
+	                0 3px 5px rgba(49,24,82,.2),
+	               0 5px 10px rgba(49,24,82,.2),
+	              0 10px 10px rgba(49,24,82,.2),
+	              0 20px 20px rgba(49,24,82,.3);
+ font-family: 'Rubik Vinyl', cursive;
+}
+
+#front {
+  margin-left: 300px;
+  margin-top: 1px;
+}
+
+h3 {
+  color: hsl(318, 100%, 83%);
+  text-shadow: 5px 5px 5px hsl(191, 69%, 80%);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 40px;
+  font-style: bold;
 }
