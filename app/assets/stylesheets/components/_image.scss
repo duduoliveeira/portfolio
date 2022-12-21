@@ -26,8 +26,29 @@
 
 .pin {
   margin-right: 250px;
-  margin-top: 215px;
+  margin-top: 200px;
   display: inline-block;
   animation: jello; /* referring directly to the animation's @keyframe declaration */
   animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+.foto {
+  margin-right: 350px;
+  margin-top: 200px;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+}
+
+#logo {
+  margin-left: 200px;
+  width: 100px;
+  height: 100px;
+  border-radius: 4px;
+  border: 1px solid white;
+  padding: 3px;
+}
+
+#logo:hover {
+  box-shadow: 0 0 2px 1px #A9E2EF;
 }

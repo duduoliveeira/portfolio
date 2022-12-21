@@ -6,8 +6,67 @@ section {
   height: 100vh;
 }
 
+.par {
+  background-image: linear-gradient(black, #07093e6f, black)
+}
+
 .banner {
   background-color: lightgray;
-  background-image: url("rosa.png");
+  background-image: url("escuro2.png");
+}
 
+#name {
+  margin-left: 300px;
+  margin-top: 380px;
+  font-size: 50px;
+  color: #A9E2EF;
+  font-weight: 600;
+  text-shadow: 2px 2px 5px #ffa8e5 ;
+}
+
+
+#front {
+  margin-left: 303px;
+  color: #ffa8e5;
+  font-size: 20px;
+}
+
+.title {
+  margin-left:200px;
+  color: #A9E2EF;
+  font-weight: 600;
+  text-shadow: 2px 2px 5px #ffa8e5
+}
+
+#about {
+  margin-top: 280px;
+}
+
+#jobs {
+  margin-top: 100px;
+}
+
+#contact {
+  margin-top: 100px;
+}
+
+#text {
+  margin-left: 200px;
+  margin-top: 30px;
+  width: 600px;
+  height: 500px;
+}
+
+#desc1 {
+  height: 100px;
+  width: 950px;
+  margin-left: 20px;
+}
+
+
+#desc2 {
+  height: 100px;
+  width: 950px;
+  margin-top: 15px;
+  margin-left: 20px;
 }

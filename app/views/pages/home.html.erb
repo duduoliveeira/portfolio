@@ -1,7 +1,8 @@
 <section class="banner d-flex justify-content-between">
   <div class="d-flex flex-column">
-    <h1 data-shadow='Eduardo Oliveira' class="animate__animated animate__bounceInDown" id="name">Eduardo Oliveira,</h1>
-    <h3 class="animate__animated animate__bounceInLeft" id="front">Front-end Developer.</h3>
+    <h1 data-shadow='Eduardo Oliveira' class="animate__animated animate__bounceInDown" id="name">Eduardo Oliveira</h1>
+    <h3 class="animate__animated animate__bounceInLeft" id="front">Front-end Developer</h3>
+
   </div>
   <div class="pin">
     <%= image_tag("logo.png")%>
@@ -11,9 +12,57 @@
 <section>
   <div class="images_box">
     <div class="d-flex justify-content-center">
-      <div data-aos="fade-left" data-aos-delay="400"><%= image_tag "about.png", id: 'imgb'  %></div>
-      <div data-aos="fade-up" data-aos-delay="400"><%= image_tag "jobs.png" , id: 'imgb'  %></div>
-      <div data-aos="fade-right" data-aos-delay="400"><%= image_tag "contact.png" , id: 'imgb' %></div>
+      <div data-aos="fade-left" data-aos-delay="200"><a href="#ab"><%= image_tag "about.png", id: 'imgb'  %></a></div>
+      <div data-aos="fade-up" data-aos-delay="200"><a href="#job"><%= image_tag "jobs.png" , id: 'imgb'  %></a></div>
+      <div data-aos="fade-right" data-aos-delay="200"><a href="#cont"><%= image_tag "contact.png" , id: 'imgb' %></a></div>
     </div>
+  </div>
+</section>
+
+<section id="ab" class="par d-flex justify-content-between">
+  <div>
+    <h1 class="title" id="about" data-aos="fade-right" data-aos-delay="300"> About me:</h1>
+    <p data-aos="fade-up" data-aos-delay="500" id="text">Sou um desenvolvedor front-end,  extremamente apaixonado por futebol, fã de games e de socializar. E, acima de tudo, um entusiasta da programação.
+    <br>
+    <br>
+    Venho estudando para me aprimorar em frameworks de JavaScript e CSS, pois amo explorar minha criatividade. Além disso, sei trabalhar com Ruby on Rails.
+    <br>
+    <br>
+    "É preciso parar de encarar a internet como uma rede de computadores. Ela é uma rede de pessoas."
+    </p>
+  </div>
+  <div data-aos="flip-up" data-aos-delay="500" class="foto flex-item">
+    <%= image_tag("peb.png")%>
+  </div>
+</section>
+
+<section id="job" class="par d-flex flex-column">
+  <div>
+  <h1 class="title" id="jobs" data-aos="fade-right" data-aos-delay="300"> Jobs:</h1>
+  </div>
+
+  <div class="d-flex justify-content-start" data-aos="fade-up" style="margin-top: 100px;">
+    <div class="p-2">
+      <a href="https://buscavo.herokuapp.com/" target="_blank"><%= image_tag "b-logo.png", id: 'logo' %></a>
+    </div>
+    <div class="description p-2">
+      <p id="desc1">Projeto de conclusão do bootcamp de Desenvolvimento Web (Full Stack), da Le Wagon, no Batch #1040. Criamos um aplicativo que facilita a vida das vovós e vovôs que possuem dificuldade na hora de chamar um transporte. É possível solicitar um carro com apenas um clique, enquanto o administrador fica responsável pelas tarefas mais "complicadas". Trabalhamos em equipe de 4 pessoas, onde todos puderam desenvolver para front-end e back-end.</p>
+    </div>
+  </div>
+
+  <div class="d-flex justify-content-start" data-aos="fade-up" style="margin-top: 100px;">
+    <div class="p-2">
+      <a href="https://power-market.herokuapp.com/" target="blank"><%= image_tag "super.png", id: 'logo' %></a>
+    </div>
+    <div class="p-2">
+      <p id="desc2">Projeto realizado no bootcamp de Desenvolvimento Web (Full Stack), da Le Wagon, no Batch #1040. Neste projeto fomos desafiados a desenvolver um marketplace com tema livre. Trabalhamos em equipe de 4 pessoas, onde todos puderam desenvolver para front-end e back-end.</p>
+    </div>
+  </div>
+</section>
+
+<section id="cont" class="par d-flex flex-column">
+  <div>
+   <h1 class="title" id="contact" data-aos="fade-right" data-aos-delay="300"> Contact:</h1>
+   <p data-aos="fade-up" data-aos-delay="500" id="text"></p>
   </div>
 </section>
